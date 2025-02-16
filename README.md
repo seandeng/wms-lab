@@ -1,6 +1,5 @@
 record some ideas about wms system
 
-
 | Module Name              | Description                                  | Database Tables                              |
 |--------------------------|----------------------------------------------|----------------------------------------------|
 | **wms-core-service**     | Core management service for warehouse, storer, and product management | `Storer`, `Facility`, `Product`             |
@@ -9,4 +8,7 @@ record some ideas about wms system
 | **wms-billing-service**   | Billing management, handling cost calculations | `Billing`, `Billing_Detail`, `Billing_Rate` |
 | **wms-auth-service**      | Authentication service, managing user permissions | `users`, `roles`, `permissions`             |
 | **wms-gateway-service**   | API gateway for routing & load balancing   | No database                                  |
-
+| **wms-config-server**     | Configuration center                        | No database                                  |
+| **wms-discovery-server**  | Service discovery                           | No database                                  |
+| **wms-monitoring**        | Monitoring module                           | No database                                  |
+| **wms-api-docs**          | API documentation                           | No database                                  |
