@@ -1,0 +1,10 @@
+The /wms-lab/wms-lab/wms-core-service/src/main/resources directory is typically used for configuration files and other resource files needed by the core service module. Below is the content for this directory:
+
+# /wms-lab/wms-core-service/src/main/resources/application.properties
+# This file is intentionally left blank.
+
+# /wms-lab/wms-core-service/src/main/resources/log4j2.xml
+# This file is intentionally left blank.
+
+# /wms-lab/wms-core-service/src/main/resources/messages.properties
+# This file is intentionally left blank.

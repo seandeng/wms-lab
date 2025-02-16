@@ -1,0 +1,6 @@
+The directory `/wms-lab/wms-lab/wms-auth-service/src/main/resources` is intended to hold resource files for the authentication service module. Since you have not specified any particular resource files to include, I will create a basic `application.properties` file, which is commonly used in Spring Boot applications for configuration.
+
+Here are the contents for the file `/wms-lab/wms-lab/wms-auth-service/src/main/resources/application.properties`:
+
+# application.properties
+# This file is intentionally left blank.

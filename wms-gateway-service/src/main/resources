@@ -1,0 +1,36 @@
+# The /wms-lab/wms-lab/wms-gateway-service/src/main/resources directory is typically used for configuration files and other resources needed by the gateway service. Below are the contents for this directory.
+
+# Create a file named application.yml for the gateway service configuration.
+
+spring:
+  application:
+    name: wms-gateway-service
+  cloud:
+    gateway:
+      routes:
+        - id: auth-service
+          uri: lb://wms-auth-service
+          predicates:
+            - Path=/auth/**
+        - id: core-service
+          uri: lb://wms-core-service
+          predicates:
+            - Path=/core/**
+        - id: inventory-service
+          uri: lb://wms-inventory-service
+          predicates:
+            - Path=/inventory/**
+        - id: transaction-service
+          uri: lb://wms-transaction-service
+          predicates:
+            - Path=/transaction/**
+        - id: billing-service
+          uri: lb://wms-billing-service
+          predicates:
+            - Path=/billing/**
+      default-filters:
+        - StripPrefix=1
+
+# Create a file named application.properties for additional properties if needed.
+
+# This file is intentionally left blank.

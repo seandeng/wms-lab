@@ -1,0 +1,7 @@
+The /wms-lab/wms-lab/wms-billing-service/src/main/resources directory is typically used to store configuration files and other resource files for the billing service module. Since you haven't specified any particular files to include, I will create a basic application.properties file that is commonly used in Spring Boot applications.
+
+Here are the contents for the file:
+
+/wms-lab/wms-billing-service/src/main/resources/application.properties
+
+# This file is intentionally left blank.
