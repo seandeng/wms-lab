@@ -1,7 +1,0 @@
-package com.example.common;
-
-public class CommonUtils {
-    public static String formatString(String input) {
-        return input != null ? input.trim() : "";
-    }
-}
