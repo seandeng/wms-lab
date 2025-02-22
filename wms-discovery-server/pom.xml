@@ -3,22 +3,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
+    <groupId>com.github.wmslab</groupId>
     <artifactId>wms-discovery-server</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>com.example</groupId>
+        <groupId>com.github.wmslab</groupId>
         <artifactId>wms-lab</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>

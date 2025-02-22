@@ -1,6 +1,0 @@
-The /wms-lab/wms-lab/wms-common/src/main/resources directory is intended to hold resource files such as configuration files and property files for the common module. Since you have not specified any particular resource files to include, I will create a placeholder file named `application.properties` that can be used for configuration settings.
-
-Here are the contents for the file:
-
-# application.properties
-# This file is intentionally left blank. You can add your configuration properties here.

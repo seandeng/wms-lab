@@ -1,11 +1,11 @@
-package com.example.wmsauthservice;
+package com.github.wmslab.billing;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WmsAuthServiceApplication {
+public class BillingServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(WmsAuthServiceApplication.class, args);
+        SpringApplication.run(BillingServiceApplication.class, args);
     }
 }
